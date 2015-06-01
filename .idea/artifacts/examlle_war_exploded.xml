@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="examlle:war exploded">
+    <output-path>$PROJECT_DIR$/target/examlle-1</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="examlle" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.google.gwt:gwt-servlet:2.7.0" />
+          <element id="library" level="project" name="Maven: com.extjs:gxt:2.3.1a-gwt22" />
+          <element id="library" level="project" name="Maven: com.h2database:h2:1.4.182" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="examlle/web/Web" />
+      <element id="gwt-compiler-output" facet="examlle/gwt/GWT" />
+    </root>
+  </artifact>
+</component>

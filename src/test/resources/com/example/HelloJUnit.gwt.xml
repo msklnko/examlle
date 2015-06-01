@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="Hello">
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='com.example.Hello' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/Hello/greet" class="com.example.server.GreetingServiceImpl" />
+
+</module>
